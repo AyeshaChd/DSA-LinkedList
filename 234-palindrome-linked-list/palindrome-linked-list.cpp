@@ -28,7 +28,7 @@ public:
     bool isPalindrome(ListNode* head) {
       
 
-    // --------------------optimal  --- in place reversing half LL and then comapring first and second half
+    // --------------------optimal  --- in place reversing half LL and then comapring first and second half and then restoring the original
     if( head == nullptr || head->next== nullptr ) return head;
      ListNode* slow=head;
       ListNode * fast=head;
